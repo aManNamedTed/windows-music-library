@@ -31,4 +31,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Thanks for still using hardware beeps, Microsoft.
+* Thanks for still using hardware beeps, [Microsoft](https://github.com/Microsoft).
