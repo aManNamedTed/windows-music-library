@@ -10,6 +10,10 @@ Range of pre-calculated notes using the windows.h file function Beep(). This was
 4. Open "yourFirstSong.cpp" in your favorite text editor
 5. Make music! Good luck!
 
+## How to use
+
+Check out the sample music in the "sampleMusic" directory for how to format your music.
+Don't forget to compile and run on a Windows PC!
 
 ## Contributing
 
