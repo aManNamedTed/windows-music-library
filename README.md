@@ -41,4 +41,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Thanks for still using hardware beeps, [Microsoft](https://github.com/Microsoft). as of: <i>19 July 2018</i>
+* Thanks for still using hardware beeps, [Microsoft](https://github.com/Microsoft). <i>as of 19 July 2018</i>
