@@ -2,6 +2,11 @@
 
 Range of pre-calculated notes using the windows.h file function [Beep()](https://msdn.microsoft.com/en-us/library/windows/desktop/ms679277(v=vs.85).aspx). This was created due to an earlier project of mine, [16th & Oak](https://github.com/aManNamedTed/16th-Oak), where I made a small melody in the opening scene of the game. The hope is to open-source this library to others to play around with and make their own music. Happy composing!
 
+## Compatibility
+<img width="256" height="256" src="../img/win_7_compat_icon.png"/>
+<img width="256" height="256" src="../img/win_8_compat_icon.png"/>
+<img width="256" height="256" src="../img/win_10_compat_icon.png"/>
+
 ## Getting Started
 
 0. Own a Windows PC
@@ -23,7 +28,13 @@ Don't forget to compile and run on a Windows PC!
 1. Click this link, https://sourceforge.net/projects/orwelldevcpp/, to go to the Dev-C++ download page.
 2. Download Dev-C++.
 3. Open Dev-C++.
-4. Navigate to File > New >  
+4. Navigate to File > New > 
+
+. After creating the project, include
+.
+.
+.
+.
 <br/>
 //to add 2 ide config
 <br/>
