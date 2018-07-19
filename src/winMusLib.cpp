@@ -1,6 +1,5 @@
 // This library is only available for Windows machines!
 #include <windows.h> 
-#include <unistd.h>
 
 //			 C  - includes C0 to C8 (length is in milliseconds)
 void c0(double length)  { Beep(16.35,   length); }
