@@ -27,7 +27,7 @@ Don't forget to compile and run on a Windows PC!
 //to add 1 ide configuration
 ### Method 1: Using [Dev-C++](https://sourceforge.net/projects/orwelldevcpp/)
 
-0. Complete [Getting Started](#getting-started)
+0. Complete the [Getting Started](#getting-started) section above.
 1. Click this link, https://sourceforge.net/projects/orwelldevcpp/, to go to the Dev-C++ download page.
 2. Download Dev-C++.
 3. Open Dev-C++.
