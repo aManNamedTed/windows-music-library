@@ -12,12 +12,6 @@ Range of pre-calculated notes using the windows.h file function [Beep()](https:/
 
 ## Getting Started
 
-> <b>Note:</b> 
-> <i>
->   Remember that the [88-key range of a piano](img/piano_organ_range.jpg) is A0 to C8 (inclusive). So if your computer is 
->   able to compile and run the library as-is with no audible output, try a different note in the middle of the range.
-> </i> 
-
 0. Use a Windows PC or virtual machine with Windows 7, Windows 8, or Windows 10 installed.
 1. Clone the repository onto said Windows PC or virtual machine.
 2. Make sure you have a C++ compiler installed on your Windows PC or virtual machine.
@@ -29,6 +23,12 @@ Range of pre-calculated notes using the windows.h file function [Beep()](https:/
 
 Check out the sample music in the "sampleMusic" directory for how to format your files.
 Don't forget to compile and run on a machine using Windows 10, Windows 8, or Windows 7.
+
+> <b>Note:</b> 
+> <i>
+>   Remember that the [88-key range of a piano](img/piano_organ_range.jpg) is A0 to C8 (inclusive). So if your computer is 
+>   able to compile and run the library as-is with no audible output, try a different note in the middle of the range.
+> </i> 
 
 //to add 1 ide configuration
 ### Method 1: Using [Dev-C++](https://sourceforge.net/projects/orwelldevcpp/)
