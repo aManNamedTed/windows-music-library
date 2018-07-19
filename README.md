@@ -19,11 +19,14 @@ Don't forget to compile and run on a Windows PC!
 //to add 1 ide configuration
 ### Method 1: Using [Dev-C++](https://sourceforge.net/projects/orwelldevcpp/)
 
-1. Click on [https://sourceforge.net/projects/orwelldevcpp/].
-2. 
+1. Click this link: https://sourceforge.net/projects/orwelldevcpp/ to go to the Dev-C++ download page.
+2. Download 
  
+<br/>
 //to add 2 ide config
+<br/>
 //to add 1 cli config
+<br/>
 //to add 2 cli config
 
 ## Contributing
