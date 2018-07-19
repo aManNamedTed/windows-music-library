@@ -6,11 +6,11 @@ Range of pre-calculated notes using the windows.h file function [Beep()](https:/
 <!-- .compat_img height="128" width="128" -->
 <!--[win7comp](img/win_7_compat_icon.png) ![win8comp](img/win_7_compat_icon.png) ![win10comp](img/win_10_compat_icon.png)-->
 
-<span>
-<img class="compat_img" src="img/win_7_compat_icon.png"/>
-<img class="compat_img" src="img/win_8_compat_icon.png"/>
-<img class="compat_img" src="img/win_10_compat_icon.png"/>
-</span>
+<p float="left">
+  <img class="compat_img" width="128" height="128" src="img/win_7_compat_icon.png"/>
+  <img class="compat_img" width="128" height="128" src="img/win_8_compat_icon.png"/>
+  <img class="compat_img" src="img/win_10_compat_icon.png"/>
+</p>
 ## Getting Started
 
 0. Own a Windows PC
