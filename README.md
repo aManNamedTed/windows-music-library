@@ -17,6 +17,11 @@ Check out the sample music in the "sampleMusic" directory for how to format your
 Don't forget to compile and run on a Windows PC!
 
 //to add 1 ide configuration
+### Method 1: Using [Dev-C++](https://sourceforge.net/projects/orwelldevcpp/)
+
+1. Click on [https://sourceforge.net/projects/orwelldevcpp/].
+2. 
+ 
 //to add 2 ide config
 //to add 1 cli config
 //to add 2 cli config
