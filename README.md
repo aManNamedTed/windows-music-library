@@ -4,11 +4,11 @@ Range of pre-calculated notes using the windows.h file function [Beep()](https:/
 
 ## Compatibility
 
-<div float="left" text-align="center">
+<p float="left" text-align="center">
   <img class="compat_img" width="128" height="128" src="img/win_10_compat_icon.png"/>
   <img class="compat_img" width="128" height="128" src="img/win_8_compat_icon.png"/>
-  <img class="compat_img" width="128" height="128" src="img/win_7_compat_icon.png"/>
-</div>
+  <img class="compat_img" width="256" height="256" src="img/win_7_compat_icon.png"/>
+</p>
 
 ## Getting Started
 
