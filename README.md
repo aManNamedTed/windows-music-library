@@ -3,13 +3,10 @@
 Range of pre-calculated notes using the windows.h file function [Beep()](https://msdn.microsoft.com/en-us/library/windows/desktop/ms679277(v=vs.85).aspx). This was created due to an earlier project of mine, [16th & Oak](https://github.com/aManNamedTed/16th-Oak), where I made a small melody in the opening scene of the game. The hope is to open-source this library to others to play around with and make their own music. Happy composing!
 
 ## Compatibility
-<!-- .compat_img height="128" width="128" -->
-<!--[win7comp](img/win_7_compat_icon.png) ![win8comp](img/win_7_compat_icon.png) ![win10comp](img/win_10_compat_icon.png)-->
-
-<p float="left">
+<p float="left" text-align="center">
   <img class="compat_img" width="128" height="128" src="img/win_7_compat_icon.png"/>
   <img class="compat_img" width="128" height="128" src="img/win_8_compat_icon.png"/>
-  <img class="compat_img" src="img/win_10_compat_icon.png"/>
+  <img class="compat_img" width="128" height="128"src="img/win_10_compat_icon.png"/>
 </p>
 ## Getting Started
 
