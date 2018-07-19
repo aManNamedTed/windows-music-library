@@ -10,7 +10,7 @@ Range of pre-calculated notes using the windows.h file function [Beep()](https:/
   <img class="compat_img" width="128" height="128" src="img/win_7_compat_icon.png"/>
 </p>
 
-## [Getting Started](#getting-started)
+## Getting Started
 
 0. Own a Windows PC
 1. Clone the repository onto said Windows PC
@@ -27,7 +27,7 @@ Don't forget to compile and run on a Windows PC!
 //to add 1 ide configuration
 ### Method 1: Using [Dev-C++](https://sourceforge.net/projects/orwelldevcpp/)
 
-0. Complete [#getting-started]
+0. Complete [Getting Started](#getting-started)
 1. Click this link, https://sourceforge.net/projects/orwelldevcpp/, to go to the Dev-C++ download page.
 2. Download Dev-C++.
 3. Open Dev-C++.
