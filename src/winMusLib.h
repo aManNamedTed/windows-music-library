@@ -1,5 +1,5 @@
-#ifndef "WINMUSLIB_H" 
-#define "WINMUSLIB_H" 
+#ifndef WINMUSLIB_H 
+#define WINMUSLIB_H
 
 //       C  - includes C0  to C8 (length is in milliseconds)
 void c0(double length); void c1(double length); void c2(double length);
