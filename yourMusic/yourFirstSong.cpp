@@ -1,7 +1,7 @@
 // remember to add #include "../winMusLib/winmuslib.h" 
 // at the top of your music files for them to work!
 
-#include "../winMusLib/winmuslib.h"
+#include "../src/winmuslib.h"
 
 int main()
 {
