@@ -12,17 +12,17 @@ Range of pre-calculated notes using the windows.h file function [Beep()](https:/
 
 ## Getting Started
 
-0. Own a Windows PC
-1. Clone the repository onto said Windows PC
-2. Make sure you have a C++ compiler installed on your Windows PC
-3. Navigate to the "yourMusic" directory
-4. Open "yourFirstSong.cpp" in your favorite text editor
+0. Use a Windows PC or virtual machine with Windows 7, Windows 8, or Windows 10 installed.
+1. Clone the repository onto said Windows PC or virtual machine.
+2. Make sure you have a C++ compiler installed on your Windows PC or virtual machine.
+3. Navigate to the "yourMusic" directory.
+4. Open "yourFirstSong.cpp" in your favorite text editor or integrated development environment.
 5. Make music! Good luck!
 
 ## Usage
 
-Check out the sample music in the "sampleMusic" directory for how to format your music.
-Don't forget to compile and run on a Windows PC!
+Check out the sample music in the "sampleMusic" directory for how to format your files.
+Don't forget to compile and run on a machine using Windows 10, Windows 8, or Windows 7.
 
 //to add 1 ide configuration
 ### Method 1: Using [Dev-C++](https://sourceforge.net/projects/orwelldevcpp/)
