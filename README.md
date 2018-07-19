@@ -27,7 +27,8 @@ Don't forget to compile and run on a machine using Windows 10, Windows 8, or Win
 > <b>Note:</b> 
 > <i>
 >   Remember that the [88-key range of a piano](img/piano_organ_range.jpg) is A0 to C8 (inclusive). So if your computer is 
->   able to compile and run the library as-is with no audible output, try a different note in the middle of the range.
+>   able to compile and run the library as-is with no audible output, try a different note in the middle of the range or 
+>   increase the length of the tone.
 > </i> 
 
 //to add 1 ide configuration
