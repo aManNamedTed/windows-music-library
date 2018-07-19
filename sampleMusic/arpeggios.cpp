@@ -1,4 +1,4 @@
-#include "winMusLib.h"
+#include "../winMusLib/winMusLib.h"
 
 int main()
 {
