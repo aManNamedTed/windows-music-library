@@ -1,6 +1,8 @@
 # windows-music-library
 
-Range of pre-calculated notes using the windows.h file function [Beep()](https://msdn.microsoft.com/en-us/library/windows/desktop/ms679277(v=vs.85).aspx). This was created due to an earlier project of mine, [16th & Oak](https://github.com/aManNamedTed/16th-Oak), where I made a small melody in the opening scene of the game while referencing [this resource](https://pages.mtu.edu/~suits/notefreqs.html). I also screenshotted the reference and stored it in the [img](img) directory in case the reference is renamed or deleted. The hope is to open-source this library to others to play around with and make their own music. Happy composing!
+Range of pre-calculated notes using the windows.h file function [Beep()](https://msdn.microsoft.com/en-us/library/windows/desktop/ms679277(v=vs.85).aspx). This was created due to an earlier project of mine, [16th & Oak](https://github.com/aManNamedTed/16th-Oak), where I made a small melody in the opening scene of the game while referencing [this resource](https://pages.mtu.edu/~suits/notefreqs.html). I also screenshotted the reference and stored it in the [img](img) directory in case the reference is renamed or deleted. 
+
+The hope is to open-source this library to others to play around with and make their own music. Happy composing!
 
 ## Compatibility
 
