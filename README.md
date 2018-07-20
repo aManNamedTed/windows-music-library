@@ -53,7 +53,7 @@ Don't forget to compile and run on a machine using Windows 10, Windows 8, or Win
 15. Do steps 12-14, but instead add the file from yourMusic/yourFirstSong.cpp.
 16. Insert a few of your favorite notes.
 17. Click Execute > Compile & Run or press F11. 
-> <i>If step 17 does not work, read the <b>Note</b> in the [Usage](#usage) section.</i>
+> <i>If step 17 does not work, read the <b>Note:</b> in the [Usage](#usage) section.</i>
 18. Repeat steps 16-17 until satisfied. (Good luck!)
 
 ### Method 2: Using cli conifg
