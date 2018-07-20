@@ -17,7 +17,7 @@ The hope is to open-source this library to others to play around with and make t
 0. Use a Windows PC or virtual machine with Windows 7, Windows 8, or Windows 10 installed.
 1. Clone the repository onto said Windows PC or virtual machine.
 2. Make sure you have a C++ compiler installed on your Windows PC or virtual machine.
-3. Complete [Method 1](#method1) or [Method 2](#method2).
+3. Complete [Method 1](#method 1) or [Method 2](#method 2).
 
 ## Usage
 
