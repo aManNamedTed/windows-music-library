@@ -12,12 +12,11 @@ The hope is to open-source this library to others to play around with and make t
   <img class="compat_img" width="128" height="128" src="img/win_7_compat_icon.png"/>
 </p>
 
-## Getting Started
+## Requirements
 
 0. Use a Windows PC or virtual machine with Windows 7, Windows 8, or Windows 10 installed.
 1. Clone the repository onto said Windows PC or virtual machine.
-2. Make sure you have a C++ compiler installed on your Windows PC or virtual machine.
-3. Complete [Method 1](#method 1) or [Method 2](#method 2).
+2. Make sure you have a C++ compiler and text editor installed on your Windows PC or virtual machine.
 
 ## Usage
 
@@ -31,6 +30,7 @@ Don't forget to compile and run on a machine using Windows 10, Windows 8, or Win
 >   increase the length of the tone.
 > </i> 
 
+## Getting Started
 ### Method 1: Using [Dev-C++](https://sourceforge.net/projects/orwelldevcpp/) (IDE)
 
 0. Complete the [Getting Started](#getting-started) section above.
