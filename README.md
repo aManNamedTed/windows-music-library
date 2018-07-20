@@ -24,7 +24,7 @@ The hope is to open-source this library to others to play around with and make t
 ## Usage
 
 Check out the sample music in the "sampleMusic" directory for how to format your files.
-Don't forget to compile and run on a machine using Windows 10, Windows 8, or Windows 7.
+Don't forget to compile and run on a machine using Windows 10, Windows 8, or Windows 7 and your favorite C++ compiler or IDE.
 
 > <b>Note:</b> 
 > <i>
