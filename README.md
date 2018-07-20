@@ -43,7 +43,7 @@ Don't forget to compile and run on a machine using Windows 10, Windows 8, or Win
 7. Select C++ Project.
 8. Name your project something fun, then click OK.
 9. Navigate to the directory you want to save your project in and click Save.
-10. In the view on the left, click the Project tab
+10. In the view on the left, click the Project tab.
 11. Right click your project.
 12. Select Add To Project...
 13. Navigate to the src directory within the library.
@@ -60,7 +60,7 @@ Don't forget to compile and run on a machine using Windows 10, Windows 8, or Win
 
 ## Contributing
 
-If you're set on contributing, feel free to say hi@davidamante.com
+If you're set on contributing, feel free to say hi@davidamante.com.
 
 ## Versioning
 
