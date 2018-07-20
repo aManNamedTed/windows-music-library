@@ -31,7 +31,7 @@ Don't forget to compile and run on a machine using Windows 10, Windows 8, or Win
 >   increase the length of the tone.
 > </i> 
 
-### Method 1: Using [Dev-C++](https://sourceforge.net/projects/orwelldevcpp/)
+### Method 1: Using [Dev-C++ (IDE)](https://sourceforge.net/projects/orwelldevcpp/)
 
 0. Complete the [Getting Started](#getting-started) section above.
 1. Click this link https://sourceforge.net/projects/orwelldevcpp/ to go to the Dev-C++ download page.
