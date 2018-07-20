@@ -45,12 +45,15 @@ Don't forget to compile and run on a machine using Windows 10, Windows 8, or Win
 .
 .
 .
-<br/>
+
 //to add 2 ide config
-<br/>
+### Method 2: Using [Visual C++](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
+
 //to add 1 cli config
-<br/>
+### Method 3: Using cli conifg
+
 //to add 2 cli config
+### Method 4: Using CLI config
 
 ## Contributing
 
