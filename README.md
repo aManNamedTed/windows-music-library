@@ -34,7 +34,7 @@ Don't forget to compile and run on a machine using Windows 10, Windows 8, or Win
 ### Method 1: Using [Dev-C++](https://sourceforge.net/projects/orwelldevcpp/)
 
 0. Complete the [Getting Started](#getting-started) section above.
-1. Click this link, https://sourceforge.net/projects/orwelldevcpp/, to go to the Dev-C++ download page.
+1. Click this link https://sourceforge.net/projects/orwelldevcpp/ to go to the Dev-C++ download page.
 2. Download Dev-C++.
 3. Open Dev-C++.
 4. Navigate to File > New > Project...
