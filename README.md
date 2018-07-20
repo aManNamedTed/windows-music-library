@@ -17,9 +17,7 @@ The hope is to open-source this library to others to play around with and make t
 0. Use a Windows PC or virtual machine with Windows 7, Windows 8, or Windows 10 installed.
 1. Clone the repository onto said Windows PC or virtual machine.
 2. Make sure you have a C++ compiler installed on your Windows PC or virtual machine.
-3. Navigate to the "yourMusic" directory.
-4. Open "yourFirstSong.cpp" in your favorite text editor or integrated development environment.
-5. Make music! Good luck!
+3. Complete [Method 1](#method1) or [Method 2](#method2).
 
 ## Usage
 
@@ -56,7 +54,8 @@ Don't forget to compile and run on a machine using Windows 10, Windows 8, or Win
 > <i>If step 17 does not work, read the</i> <b>Note:</b> <i>in the [Usage](#usage) section.</i>
 18. Repeat steps 16-17 until satisfied. (Good luck!)
 
-### Method 2: Using cli conifg
+### Method 2: Using the Command Line
+0. Complete the [Getting Started](#getting-started) section above.
 
 ## Contributing
 
