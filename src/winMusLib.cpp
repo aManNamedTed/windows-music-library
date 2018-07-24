@@ -132,3 +132,60 @@ void b5(double length)  { Beep(987.77,  length); }
 void b6(double length)  { Beep(1975.53, length); }
 void b7(double length)  { Beep(3951.07, length); }
 void b8(double length)  { Beep(7902.13, length); }
+
+// Given beats per minute, set values for various note durations
+void setNoteDurations(double beatsPerMinute, double &quarter,  \
+                      double &dottedQuarter, double &whole,    \
+                      double &dottedHalf,    double &half,     \
+                      double &eighth,        double &sixteenth);
+{
+  // Assuming four beats per measure, and one beat is one quarter note,
+  // one quarter note is equal to one minute divided by the beats per minute.
+	const static double MINUTE_IN_MILLISECONDS = 60000;
+	quarter = MINUTE_IN_MILLISECONDS / beatsPerMinute;
+
+  // Leaving function names in this order because of format of reference;
+  // ../img/note_duration_to_millisecond.png
+	dottedQuarter = setDottedQuarter(quarter);
+	whole = setWhole(quarter);
+	dottedHalf = setDottedHalf(quarter);
+	half = setHalf(quarter);
+	eighth = setEighth(quarter);
+	sixteenth = setSixteenth(quarter);
+}
+
+double setDottedQuarter(double quarterNote)
+{
+  const static double DOTTED_QUARTER_MODIFIER = 1.5;
+  return DOTTED_QUARTER_MODIFIER * quarterNote;
+}
+
+double setWhole(double quarterNote)
+{
+  const static double WHOLE_MODIFIER = 4;
+  return WHOLE_MODIFIER * quarterNote;
+}
+
+double setDottedHalf(double quarterNote)
+{
+  const static double DOTTED_HALF_MODIFIER = 3;
+  return DOTTED_HALF_MODIFIER * quarterNote;
+}
+
+double setHalf(double quarterNote)
+{
+  const static double HALF_MODIFIER = 2;
+  return HALF_MODIFIER * quarterNote;
+}
+
+double setEighth(double quarterNote)
+{
+  const static double EIGHTH_MODIFIER = 0.5;
+  return EIGHTH_MODIFIER * quarterNote;
+}
+
+double setSixteenth(double quarterNote)
+{
+  const static double SIXTEENTH_MODIFIER = 0.25;
+  return SIXTEENTH_MODIFIER * quarterNote;
+}

@@ -61,4 +61,19 @@ void b0(double length); void b1(double length); void b2(double length);
 void b3(double length); void b4(double length); void b5(double length);
 void b6(double length); void b7(double length); void b8(double length);
 
+// Given beats per minute, set values for various note durations
+void setNoteDurations(double beatsPerMinute, double &quarter,  \
+                      double &dottedQuarter, double &whole,    \
+                      double &dottedHalf,    double &half,     \
+                      double &eighth,        double &sixteenth);
+
+// Leaving function names in this order because this is the order they appear 
+// in, in the reference ../img/note_duration_to_millisecond.png
+double setDottedQuarter(double quarterNote);
+double setWhole(double quarterNote);
+double setDottedHalf(double quarterNote);
+double setHalf(double quarterNote);
+double setEighth(double quarterNote);
+double setSixteenth(double quarterNote);
+
 #endif
