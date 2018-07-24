@@ -100,4 +100,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * Thanks for still using hardware beeps, [Microsoft](https://github.com/Microsoft).
-* Special thanks to [@NickFever](https://twitter.com/NickFever?lang=en) for giving me the beats-per-minute to note duration calculation.
+* Special thanks to [@NickFever](https://twitter.com/NickFever?lang=en) for giving me the [beats-per-minute to note duration calculation](http://nickfever.com/music/blog/2014/bpm-to-ms).
