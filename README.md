@@ -61,8 +61,10 @@ Don't forget to compile and run on a machine using Windows 10, Windows 8, or Win
 2. Using your favorite text editor, write a song to the file yourMusic/yourFirstSong.cpp.
 3. Press the Windows key, type "cmd" and press enter.
 4. Navigate to the windows-music-library/yourMusic directory.
-> "<b>dir</b>" -- to print the contents of your current directory
-> "<b>cd</b> <dir>"  -- to <b>c</b>hange <b>d</b>irectory to the <dir>ectory
+```bash
+<b>dir</b>"       # to print the contents of your current directory
+<b>cd</b> <dir>"  # to <b>c</b>hange <b>d</b>irectory to the <dir>ectory
+```
 5. Compile and run your song file with the windows-music-library.
 > "gcc yourFirstSong.cpp ../src/winmuslib.cpp"
 
