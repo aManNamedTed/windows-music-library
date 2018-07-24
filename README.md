@@ -68,9 +68,13 @@ Don't forget to compile and run on a machine using Windows 10, Windows 8, or Win
   # example usage of cd
   cd ~/Downloads/windows-music-library/yourMusic
 ```
-5. Compile and run your song file with the windows-music-library.
+5. Compile your song file with the windows-music-library.
 ```bash
   gcc yourFirstSong.cpp ../src/winMusLib.cpp
+```
+6. Run your executable file and listen to an awesome song!
+```bash
+  yourFirstSong
 ```
 
 > <b>Optional</b>: Try creating a makefile to automate this process. (Google it!)
