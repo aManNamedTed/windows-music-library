@@ -1,0 +1,25 @@
+# !/bin/bash
+
+# $# is the number of arguments
+if [ $# -eq 0 ] 
+then
+  echo "Usage: ./update \"this is a comment for github\""
+else
+  echo "You entered the following comment: \"$@\""
+  echo "Is this correct? (y/n)"
+
+  # reads in user option
+  read option 
+  if [ $option = "y" ] || [ $option = "Y" ]
+  then
+    eval "$(ssh-agent)" &&
+    ssh-add ~/.ssh/id_rsa_bb &&
+    ssh-add ~/.ssh/id_rsa_gh &&
+    git add -A &&
+    git commit -m "$@" &&
+    git push 
+  else
+    echo "Aborting... "
+    exit
+  fi
+fi
