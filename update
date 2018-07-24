@@ -18,6 +18,7 @@ else
     git add -A &&
     git commit -m "$@" &&
     git push 
+    clear
   else
     echo "Aborting... "
     exit
