@@ -57,13 +57,16 @@ Don't forget to compile and run on a machine using Windows 10, Windows 8, or Win
 ### Method 2: Using the [MinGW](https://sourceforge.net/projects/mingw/files/OldFiles/) and Command Line (CMD)
 
 0. Complete the [Requirements](#requirements) section above.
-1. Install the [MinGW Compiler](https://sourceforge.net/projects/mingw/files/OldFiles/)
+1. Install the [MinGW Compiler](https://sourceforge.net/projects/mingw/files/OldFiles/).
 2. Using your favorite text editor, write a song to the file yourMusic/yourFirstSong.cpp.
 3. Press the Windows key, type "cmd" and press enter.
 4. Navigate to the windows-music-library/yourMusic directory.
 ```bash
-  dir       # to print the contents of your current directory
+  dir       # to print the contents of your current directory  
   cd <dir>  # to change directory to the <dir>ectory
+  
+  # example usage of cd
+  cd ~/Downloads/windows-music-library/yourMusic
 ```
 5. Compile and run your song file with the windows-music-library.
 ```bash
