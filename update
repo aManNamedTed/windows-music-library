@@ -18,7 +18,6 @@ else
     git add -A &&
     git commit -m "$@" &&
     git push 
-    kill $SSH_AGENT_PID
     clear
   else
     echo "Aborting... "
