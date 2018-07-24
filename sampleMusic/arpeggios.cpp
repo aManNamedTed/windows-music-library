@@ -1,4 +1,4 @@
-// remember to add #include "../src/winmuslib.h" 
+/ remember to add #include "../src/winmuslib.h" 
 // at the top of your music files for them to work!
 
 #include "../src/winmuslib.h"
@@ -19,7 +19,7 @@ int main()
   setNoteDurations(beatsPerMinute, quarter, dottedQuarter, whole, \
                    dottedHalf,     half,    eighth,        sixteenth);
 
-	//ascending C major arpeggio
+  //ascending C major arpeggio
   c3(eighth); e3(eighth); g3(eighth);
 
   c4(eighth); e4(eighth); g4(eighth);
