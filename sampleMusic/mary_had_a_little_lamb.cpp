@@ -19,29 +19,29 @@ int main()
   setNoteDurations(beatsPerMinute, quarter, dottedQuarter, whole, \
                    dottedHalf,     half,    eighth,        sixteenth);
 
-	// 1st measure
-	b4(quarter); a4(quarter); g4(quarter); a4(quarter);
+  // 1st measure
+  b4(quarter); a4(quarter); g4(quarter); a4(quarter);
 
-	// 2nd measure
-	b4(quarter); b4(quarter); b4(half);
-	
-	// 3rd measure
-	a4(quarter); a4(quarter); a4(half);
-	
-	// 4thalf measure
-	b4(quarter); d5(quarter); d5(half);
+  // 2nd measure
+  b4(quarter); b4(quarter); b4(half);
+  
+  // 3rd measure
+  a4(quarter); a4(quarter); a4(half);
+  
+  // 4thalf measure
+  b4(quarter); d5(quarter); d5(half);
 
-	// 5th measure
-	b4(quarter); a4(quarter); g4(quarter); a4(quarter);
+  // 5th measure
+  b4(quarter); a4(quarter); g4(quarter); a4(quarter);
 
-	// 6th measure
-	b4(quarter); b4(quarter); b4(quarter); b4(quarter);
-	
-	// 7th measure
-	a4(quarter); a4(quarter); b4(quarter); a4(quarter);
+  // 6th measure
+  b4(quarter); b4(quarter); b4(quarter); b4(quarter);
+  
+  // 7th measure
+  a4(quarter); a4(quarter); b4(quarter); a4(quarter);
 
-	// 8th measure
-	g4(dottedHalf);
+  // 8th measure
+  g4(dottedHalf);
 
   return 0;
 }
