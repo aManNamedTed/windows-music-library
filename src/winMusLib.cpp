@@ -112,8 +112,8 @@ void a7(double length)  { Beep(3520.00, length); }
 void a8(double length)  { Beep(7040.00, length); }
 
 // A# or Bb - includes A#0 to A#8 or Bb0 to Bb8 (length is in milliseconds)
-void as0(double length) { Beep(29.14,	  length); }
-void as1(double length) { Beep(58.27,	  length); }
+void as0(double length) { Beep(29.14,   length); }
+void as1(double length) { Beep(58.27,   length); }
 void as2(double length) { Beep(116.54,  length); }
 void as3(double length) { Beep(233.08,  length); }
 void as4(double length) { Beep(466.16,  length); } 
