@@ -63,7 +63,7 @@ Don't forget to compile and run on a machine using Windows 10, Windows 8, or Win
 ```bash
   gcc --version
 ```
-you should see something similar to:
+the above command should show the following:
 ```bash
   gcc (MinGW.org GCC-6.3.0-1) 6.3.0
   Copyright (C) 2016 Free Software Foundation, Inc.
