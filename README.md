@@ -58,9 +58,33 @@ Don't forget to compile and run on a machine using Windows 10, Windows 8, or Win
 
 0. Complete the [Requirements](#requirements) section above.
 1. Install the [MinGW Compiler](https://sourceforge.net/projects/mingw/files/OldFiles/).
-2. Using your favorite text editor, write a song to the file yourMusic/yourFirstSong.cpp.
-3. Press the Windows key, type "cmd" and press enter.
-4. Navigate to the windows-music-library/yourMusic directory.
+2. Click start or press the Windows key, and type "cmd", and hit enter.
+3. Type the command below and press enter.
+```bash
+  gcc --version
+```
+the above command should show the following:
+```bash
+  gcc (MinGW.org GCC-6.3.0-1) 6.3.0
+  Copyright (C) 2016 Free Software Foundation, Inc.
+  This is free software; see the source for copying conditions. There is NO
+  warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+```
+> If you see,
+> ```bash
+>   'gcc' is not recognized as an internal or external command, operable program or batch file.
+> ```
+> Then it means you need to create another environment variable. <br/>
+> 3a. Click start or press the Windows key, and type "environment variable" and press enter. <br/>
+> 3b. Click "Environment Variables...". <br/>
+> 3c. In the System variables box, double click on the Path variable. <br/>
+> 3d. Click New. <br/>
+> 3e. Type in the path to your MinGW folder. Should look like "C:\MinGW\bin". <br/>
+> 3f. Click OK, then OK again, and open up cmd. <br/>
+> 3g. Retry Step 3 above.
+4. Using your favorite text editor, write a song to the file yourMusic/yourFirstSong.cpp.
+5. Press the Windows key, type "cmd" and press enter.
+6. Navigate to the windows-music-library/yourMusic directory.
 ```bash
   dir       # to print the contents of your current directory  
   cd <dir>  # to change directory to the <dir>ectory
@@ -68,11 +92,11 @@ Don't forget to compile and run on a machine using Windows 10, Windows 8, or Win
   # example usage of cd
   cd ~/Downloads/windows-music-library/yourMusic
 ```
-5. Compile your song file with the windows-music-library.
+7. Compile your song file with the windows-music-library.
 ```bash
   gcc yourFirstSong.cpp ../src/winMusLib.cpp
 ```
-6. Run your executable file and listen to an awesome song!
+8. Run your executable file and listen to an awesome song!
 ```bash
   yourFirstSong
 ```
@@ -100,3 +124,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * Thanks for still using hardware beeps, [Microsoft](https://github.com/Microsoft).
+* Special thanks to [@NickFever](https://twitter.com/NickFever?lang=en) for giving me the [beats-per-minute to note-duration calculation](http://nickfever.com/music/blog/2014/bpm-to-ms).
