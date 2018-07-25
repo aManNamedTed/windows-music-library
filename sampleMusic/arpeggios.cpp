@@ -26,9 +26,7 @@ int main()
 
   c5(eighth); e5(eighth); g5(eighth);
 
-  c6(eighth); e6(eighth); g6(eighth);
-
-  c7(half);
+  c6(half);
 
   return 0;
 }
