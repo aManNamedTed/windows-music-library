@@ -67,13 +67,13 @@ Don't forget to compile and run on a machine using Windows 10, Windows 8, or Win
 > ```bash
 >   'gcc' is not recognized as an internal or external command, operable program or batch file.
 > ```
-> Then it means you need to create another environment variable.
-> 3a. Click start or press the Windows key, and type "environment variable" and press enter.
-> 3b. Click "Environment Variables..."
-> 3c. In the System variables box, double click on the Path variable.
-> 3d. Click New.
-> 3e. Type in the path to your MinGW folder. Should look like "C:\MinGW\bin".
-> 3f. Click OK, then OK again, and open up cmd.
+> Then it means you need to create another environment variable. <br/>
+> 3a. Click start or press the Windows key, and type "environment variable" and press enter. <br/>
+> 3b. Click "Environment Variables...". <br/>
+> 3c. In the System variables box, double click on the Path variable. <br/>
+> 3d. Click New. <br/>
+> 3e. Type in the path to your MinGW folder. Should look like "C:\MinGW\bin". <br/>
+> 3f. Click OK, then OK again, and open up cmd. <br/>
 > 3g. Retry Step 3 above.
 3. Using your favorite text editor, write a song to the file yourMusic/yourFirstSong.cpp.
 4. Press the Windows key, type "cmd" and press enter.
