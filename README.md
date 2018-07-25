@@ -99,13 +99,17 @@ the above command should show the following:
 > To create a custom-named executable file, use this instead:
 > ```bash
 >   gcc yourFirstSong.cpp ../src/winMusLib.cpp -o customNamedSong
->   customNamedSong
 > ```
 
 8. Run your executable file and listen to an awesome song!
 ```bash
   a.exe
 ```
+
+> To run your custom-named executable file, use this command:
+> ```bash
+>   customNamedSong
+> ```
 
 > <b>Optional</b>: Try creating a makefile to automate this process. (Google it!)
 
