@@ -133,27 +133,6 @@ void b6(double length)  { Beep(1975.53, length); }
 void b7(double length)  { Beep(3951.07, length); }
 void b8(double length)  { Beep(7902.13, length); }
 
-// Given beats per minute, set values for various note durations
-void setNoteDurations(double beatsPerMinute, double &quarter,  \
-                      double &dottedQuarter, double &whole,    \
-                      double &dottedHalf,    double &half,     \
-                      double &eighth,        double &sixteenth)
-{
-  // Assuming four beats per measure, and one beat is one quarter note,
-  // one quarter note is equal to one minute divided by the beats per minute.
-	const static double MINUTE_IN_MILLISECONDS = 60000;
-	quarter = MINUTE_IN_MILLISECONDS / beatsPerMinute;
-
-  // Leaving function names in this order because of format of reference;
-  // ../img/note_duration_to_millisecond.png
-	dottedQuarter = setDottedQuarter(quarter);
-	whole = setWhole(quarter);
-	dottedHalf = setDottedHalf(quarter);
-	half = setHalf(quarter);
-	eighth = setEighth(quarter);
-	sixteenth = setSixteenth(quarter);
-}
-
 double setDottedQuarter(double quarterNote)
 {
   const static double DOTTED_QUARTER_MODIFIER = 1.5;
@@ -189,3 +168,25 @@ double setSixteenth(double quarterNote)
   const static double SIXTEENTH_MODIFIER = 0.25;
   return SIXTEENTH_MODIFIER * quarterNote;
 }
+
+// Given beats per minute, set values for various note durations
+void setNoteDurations(double beatsPerMinute, double &quarter,  \
+                      double &dottedQuarter, double &whole,    \
+                      double &dottedHalf,    double &half,     \
+                      double &eighth,        double &sixteenth)
+{
+  // Assuming four beats per measure, and one beat is one quarter note,
+  // one quarter note is equal to one minute divided by the beats per minute.
+	const static double MINUTE_IN_MILLISECONDS = 60000;
+	quarter = MINUTE_IN_MILLISECONDS / beatsPerMinute;
+
+  // Leaving function names in this order because of format of reference;
+  // ../img/note_duration_to_millisecond.png
+	dottedQuarter = setDottedQuarter(quarter);
+	whole = setWhole(quarter);
+	dottedHalf = setDottedHalf(quarter);
+	half = setHalf(quarter);
+	eighth = setEighth(quarter);
+	sixteenth = setSixteenth(quarter);
+}
+
