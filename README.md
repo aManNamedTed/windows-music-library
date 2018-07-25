@@ -82,9 +82,9 @@ the above command should show the following:
 > 3e. Type in the path to your MinGW folder. Should look like "C:\MinGW\bin". <br/>
 > 3f. Click OK, then OK again, and open up cmd. <br/>
 > 3g. Retry Step 3 above.
-3. Using your favorite text editor, write a song to the file yourMusic/yourFirstSong.cpp.
-4. Press the Windows key, type "cmd" and press enter.
-5. Navigate to the windows-music-library/yourMusic directory.
+4. Using your favorite text editor, write a song to the file yourMusic/yourFirstSong.cpp.
+5. Press the Windows key, type "cmd" and press enter.
+6. Navigate to the windows-music-library/yourMusic directory.
 ```bash
   dir       # to print the contents of your current directory  
   cd <dir>  # to change directory to the <dir>ectory
@@ -92,11 +92,11 @@ the above command should show the following:
   # example usage of cd
   cd ~/Downloads/windows-music-library/yourMusic
 ```
-6. Compile your song file with the windows-music-library.
+7. Compile your song file with the windows-music-library.
 ```bash
   gcc yourFirstSong.cpp ../src/winMusLib.cpp
 ```
-7. Run your executable file and listen to an awesome song!
+8. Run your executable file and listen to an awesome song!
 ```bash
   yourFirstSong
 ```
