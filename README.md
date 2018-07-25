@@ -96,9 +96,15 @@ the above command should show the following:
 ```bash
   gcc yourFirstSong.cpp ../src/winMusLib.cpp
 ```
+> To create a custom-named executable file, use this instead:
+> ```bash
+>   gcc yourFirstSong.cpp ../src/winMusLib.cpp -o customNamedSong
+>   customNamedSong
+> ```
+
 8. Run your executable file and listen to an awesome song!
 ```bash
-  yourFirstSong
+  a.exe
 ```
 
 > <b>Optional</b>: Try creating a makefile to automate this process. (Google it!)
