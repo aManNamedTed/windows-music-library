@@ -63,6 +63,13 @@ Don't forget to compile and run on a machine using Windows 10, Windows 8, or Win
 ```bash
   gcc --version
 ```
+you should see something similar to:
+```bash
+  gcc (MinGW.org GCC-6.3.0-1) 6.3.0
+  Copyright (C) 2016 Free Software Foundation, Inc.
+  This is free software; see the source for copying conditions. There is NO
+  warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+```
 > If you see,
 > ```bash
 >   'gcc' is not recognized as an internal or external command, operable program or batch file.
