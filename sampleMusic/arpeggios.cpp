@@ -1,4 +1,4 @@
-/ remember to add #include "../src/winmuslib.h" 
+// remember to add #include "../src/winmuslib.h" 
 // at the top of your music files for them to work!
 
 #include "../src/winmuslib.h"
