@@ -77,10 +77,10 @@ the above command should show the following:
 > Then it means you need to create another environment variable. <br/>
 > a. Click start or press the Windows key, and type "environment variable" and press enter. <br/>
 > b. Click "Environment Variables...". <br/>
-> c. In the System variables box, double click on the Path variable. <br/>
+> c.  In the System variables box, double click on the Path variable. <br/>
 > d. Click New. <br/>
-> e. Type in the path to your MinGW folder. Should look like "C:\MinGW\bin". <br/>
-> f. Click OK, then OK again, and open up cmd. <br/>
+> e.  Type in the path to your MinGW folder. Should look like "C:\MinGW\bin". <br/>
+> f.  Click OK, then OK again, and open up cmd. <br/>
 > g. Retry Step 3 above.
 3. Using your favorite text editor, write a song to the file yourMusic/yourFirstSong.cpp.
 4. Press the Windows key, type "cmd" and press enter.
