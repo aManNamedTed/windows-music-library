@@ -54,7 +54,7 @@ Don't forget to compile and run on a machine using Windows 10, Windows 8, or Win
 > <i>If step 17 does not work, read the</i> <b>Note:</b> <i>in the [Usage](#usage) section.</i>
 18. Repeat steps 16-17 until satisfied. (Good luck!)
 
-### Method 2: Using the [MinGW](https://sourceforge.net/projects/mingw/files/OldFiles/) and Command Line (CMD)
+### Method 2: Using [MinGW](https://sourceforge.net/projects/mingw/files/OldFiles/) Compiler and Command Line (CMD)
 
 0. Complete the [Requirements](#requirements) section above.
 1. Install the [MinGW Compiler](https://sourceforge.net/projects/mingw/files/OldFiles/).
