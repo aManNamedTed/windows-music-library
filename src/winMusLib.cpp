@@ -137,7 +137,7 @@ void b8(double length)  { Beep(7902.13, length); }
 void setNoteDurations(double beatsPerMinute, double &quarter,  \
                       double &dottedQuarter, double &whole,    \
                       double &dottedHalf,    double &half,     \
-                      double &eighth,        double &sixteenth);
+                      double &eighth,        double &sixteenth)
 {
   // Assuming four beats per measure, and one beat is one quarter note,
   // one quarter note is equal to one minute divided by the beats per minute.
