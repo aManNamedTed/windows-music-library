@@ -63,11 +63,11 @@ Don't forget to compile and run on a machine using Windows 10, Windows 8, or Win
 ```bash
   gcc --version
 ```
-   If you see,
-```bash
-  'gcc' is not recognized as an internal or external command, operable program or batch file.
-```
-   Then it means you need to create another environment variable.
+> If you see,
+> ```bash
+>   'gcc' is not recognized as an internal or external command, operable program or batch file.
+> ```
+> Then it means you need to create another environment variable.
 > 3a. Click start or press the Windows key, and type "environment variable" and press enter.
 > 3b. Click "Environment Variables..."
 > 3c. In the System variables box, double click on the Path variable.
