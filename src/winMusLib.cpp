@@ -1,6 +1,9 @@
 // This library is only available for Windows machines!
 #include <windows.h> 
 
+//    Rest  - use this as a rest within songs (length is in milliseconds)
+void rest(double length){ Beep(00.00,   length); }
+
 //			 C  - includes C0 to C8 (length is in milliseconds)
 void c0(double length)  { Beep(16.35,   length); }
 void c1(double length)  { Beep(32.70,   length); }
