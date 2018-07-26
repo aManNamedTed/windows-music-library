@@ -20,27 +20,27 @@ int main()
                    dottedHalf,     half,    eighth,        sixteenth);
 
   // 1st measure
-  c4(quarter); c4(quarter); c4(quarter); g3(quarter);
+  cn4(quarter); cn4(quarter); cn4(quarter); gn3(quarter);
 
   // 2nd measure
-  a3(quarter); a3(quarter); g3(half);
+  an3(quarter); an3(quarter); gn3(half);
 
   // 3rd measure
-  e4(quarter); e4(quarter); d4(quarter); d4(quarter);
+  en4(quarter); en4(quarter); dn4(quarter); dn4(quarter);
 
   // 4th measure
-  c4(dottedHalf); g4(quarter);
+  cn4(dottedHalf); gn4(quarter);
 
   // 5th measure
-  c5(quarter); c5(quarter); c5(quarter); g4(quarter);
+  cn5(quarter); cn5(quarter); cn5(quarter); gn4(quarter);
   
   // 6th measure
-  a4(quarter); a4(quarter); g4(half);
+  an4(quarter); an4(quarter); gn4(half);
   
   // 7th measure
-  e5(quarter); e5(quarter); d5(quarter); d5(quarter);
+  en5(quarter); en5(quarter); dn5(quarter); dn5(quarter);
   
   // 8th measure
-  c5(dottedHalf);
+  cn5(dottedHalf);
   return 0;
 }
