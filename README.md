@@ -12,7 +12,7 @@ The hope is to open-source this library to others to play around with and make t
   <img class="compat_img" width="128" height="128" src="img/win_7_compat_icon.png"/>
 </p>
 
-## Requirements0
+## Requirements
 
 0. Use a Windows PC or virtual machine with Windows 7, Windows 8, or Windows 10 installed.
 1. Clone the repository onto said Windows PC or virtual machine.
