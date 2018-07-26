@@ -20,12 +20,12 @@ int main()
                    dottedHalf,     half,    eighth,        sixteenth);
 
   // FFXIV OST Saint Mocianne's Arboretum Theme (Poison Ivy)
-  f4(whole); ds4(whole); d4(half); c4(half); d4(half); f3(dottedHalf);
+  fn4(whole); ds4(whole); dn4(half); cn4(half); dn4(half); fn3(dottedHalf);
   rst(half);
-  f4(whole); ds4(whole); d4(half); c4(half); d4(half); f3(dottedHalf);
-  fs4(whole); e4(whole); ds4(half); cs4(half); ds4(half); fs3(dottedHalf);
-  fs3(quarter); gs3(quarter); a3(dottedHalf); cs4(quarter); e4(dottedQuarter);
-  d4(dottedQuarter); gs3(quarter); cs4(dottedHalf);
+  fn4(whole); ds4(whole); dn4(half); cn4(half); dn4(half); fn3(dottedHalf);
+  fs4(whole); en4(whole); ds4(half); cs4(half); ds4(half); fs3(dottedHalf);
+  fs3(quarter); gs3(quarter); an3(dottedHalf); cs4(quarter); en4(dottedQuarter);
+  dn4(dottedQuarter); gs3(quarter); cs4(dottedHalf);
   ds4(half); gs4(whole);
 
   return 0;
