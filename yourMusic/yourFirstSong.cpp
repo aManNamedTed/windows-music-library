@@ -13,7 +13,7 @@ int main()
 
   // change beatsPerMinute to how many bpm you want your song to have
   // example: double beatsPerMinute = 200; [my favorite bpm for this library]
-  double beatsPerMinute = 0; 
+  double beatsPerMinute = 200; 
 
   // this sets your note durations based on how many bpm you select
   setNoteDurations(beatsPerMinute, quarter, dottedQuarter, whole, \
@@ -22,7 +22,7 @@ int main()
 
   /* Write your notes outside of this comment! example: 
    *
-   * c3(300);
+   * cn3(300);
    *
    * remember the duration (300) is in milliseconds.
    *
