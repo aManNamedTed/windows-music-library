@@ -26,6 +26,8 @@ void cs6(double length) { Beep(1108.73, length); }
 void cs7(double length) { Beep(2217.46, length); }
 void cs8(double length) { Beep(4434.92, length); }
 
+#define cs0(double length) db0(double length)
+
 //         Dn - includes Dn0 to Dn8 (length is in milliseconds)
 void dn0(double length) { Beep(18.3500, length); }
 void dn1(double length) { Beep(36.7100, length); }
