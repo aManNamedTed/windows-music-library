@@ -20,13 +20,10 @@ int main()
                    dottedHalf,     half,    eighth,        sixteenth);
 
   //ascending C major arpeggio
-  c3(eighth); e3(eighth); g3(eighth);
-
-  c4(eighth); e4(eighth); g4(eighth);
-
-  c5(eighth); e5(eighth); g5(eighth);
-
-  c6(half);
+  cn3(eighth); en3(eighth); gn3(eighth);
+  cn4(eighth); en4(eighth); gn4(eighth);
+  cn5(eighth); en5(eighth); gn5(eighth);
+  cn6(half);
 
   return 0;
 }
