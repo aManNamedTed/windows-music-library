@@ -180,6 +180,8 @@ void setNoteDurations(double beatsPerMinute, double &quarter,  \
                       double &dottedHalf,    double &half,     \
                       double &eighth,        double &sixteenth)
 {
+  assertBeatsPerMinute(beatsPerMinute);
+  
   // Assuming four beats per measure, and one beat is one quarter note,
   // one quarter note is equal to one minute divided by the beats per minute.
 	const static double MINUTE_IN_MILLISECONDS = 60000;
@@ -195,3 +197,14 @@ void setNoteDurations(double beatsPerMinute, double &quarter,  \
 	sixteenth = setSixteenth(quarter);
 }
 
+double assertBeatsPerMinute(double &beatsPerMinute)
+{ 
+  const static double BPM_LOWER_BOUND = 0;
+  const static double BPM_UPPER_BOUND = 301;
+  while(beatsPerMinute < BPM_LOWER_BOUND || beatsPerMinute > BPM_UPPER_BOUND)
+  {
+    cout << "Invalid BPM value." << endl;
+    cout << "Enter a value between 1 and 300: ";
+    cin >> beatsPerMinute;
+  }
+}

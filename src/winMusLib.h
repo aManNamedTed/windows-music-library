@@ -134,4 +134,6 @@ double setHalf(double quarterNote);
 double setEighth(double quarterNote);
 double setSixteenth(double quarterNote);
 
+double assertBeatsPerMinute(double beatsPerMinute)
+
 #endif
