@@ -174,7 +174,7 @@ double setSixteenth(double quarterNote)
 }
 
 // Quality may be maintained when BPM >= 420 if you have a dedicated sound card
-double assertBeatsPerMinute(double &beatsPerMinute)
+void assertBeatsPerMinute(double &beatsPerMinute)
 {
   // Oddly enough, when BPM == 420, sound rate and quality decay (for me*).
   // Go figure.
