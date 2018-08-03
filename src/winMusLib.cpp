@@ -1,5 +1,6 @@
 // This library is only available for Windows machines!
-#include <windows.h> 
+#include <windows.h>
+#include <iostream>
 
 // rst = Rest - use this as a rest within songs (length is in milliseconds)
 void rst(double length) { Beep(000.000, length); }
@@ -11,7 +12,7 @@ void cn2(double length) { Beep(65.4100, length); }
 void cn3(double length) { Beep(130.810, length); }
 void cn4(double length) { Beep(261.630, length); }
 void cn5(double length) { Beep(523.250, length); }
-void cn6(double length) { Beep(1046.50, length); } 
+void cn6(double length) { Beep(1046.50, length); }
 void cn7(double length) { Beep(2093.00, length); }
 void cn8(double length) { Beep(4186.01, length); }
 
@@ -25,8 +26,6 @@ void cs5(double length) { Beep(554.370, length); }
 void cs6(double length) { Beep(1108.73, length); }
 void cs7(double length) { Beep(2217.46, length); }
 void cs8(double length) { Beep(4434.92, length); }
-
-#define cs0(double length) db0(double length)
 
 //         Dn - includes Dn0 to Dn8 (length is in milliseconds)
 void dn0(double length) { Beep(18.3500, length); }
@@ -121,8 +120,8 @@ void as0(double length) { Beep(29.1400, length); }
 void as1(double length) { Beep(58.2700, length); }
 void as2(double length) { Beep(116.540, length); }
 void as3(double length) { Beep(233.080, length); }
-void as4(double length) { Beep(466.160, length); } 
-void as5(double length) { Beep(932.330, length); } 
+void as4(double length) { Beep(466.160, length); }
+void as5(double length) { Beep(932.330, length); }
 void as6(double length) { Beep(1864.66, length); }
 void as7(double length) { Beep(3729.31, length); }
 void as8(double length) { Beep(7458.62, length); }
@@ -174,6 +173,21 @@ double setSixteenth(double quarterNote)
   return SIXTEENTH_MODIFIER * quarterNote;
 }
 
+// Quality may be maintained when BPM >= 420 if you have a dedicated sound card
+double assertBeatsPerMinute(double &beatsPerMinute)
+{
+  // Oddly enough, when BPM == 420, sound rate and quality decay (for me*).
+  // Go figure.
+  const static double BPM_LOWER_BOUND = 0;
+  const static double BPM_UPPER_BOUND = 419;
+  while(beatsPerMinute < BPM_LOWER_BOUND || beatsPerMinute > BPM_UPPER_BOUND)
+  {
+    std::cout << "Invalid BPM value." << std::endl;
+    std::cout << "Enter a value between 1 and 419: ";
+    std::cin >> beatsPerMinute;
+  }
+}
+
 // Given beats per minute, set values for various note durations
 void setNoteDurations(double beatsPerMinute, double &quarter,  \
                       double &dottedQuarter, double &whole,    \
@@ -181,7 +195,7 @@ void setNoteDurations(double beatsPerMinute, double &quarter,  \
                       double &eighth,        double &sixteenth)
 {
   assertBeatsPerMinute(beatsPerMinute);
-  
+
   // Assuming four beats per measure, and one beat is one quarter note,
   // one quarter note is equal to one minute divided by the beats per minute.
 	const static double MINUTE_IN_MILLISECONDS = 60000;
@@ -195,16 +209,4 @@ void setNoteDurations(double beatsPerMinute, double &quarter,  \
 	half = setHalf(quarter);
 	eighth = setEighth(quarter);
 	sixteenth = setSixteenth(quarter);
-}
-
-double assertBeatsPerMinute(double &beatsPerMinute)
-{ 
-  const static double BPM_LOWER_BOUND = 0;
-  const static double BPM_UPPER_BOUND = 301;
-  while(beatsPerMinute < BPM_LOWER_BOUND || beatsPerMinute > BPM_UPPER_BOUND)
-  {
-    cout << "Invalid BPM value." << endl;
-    cout << "Enter a value between 1 and 300: ";
-    cin >> beatsPerMinute;
-  }
 }

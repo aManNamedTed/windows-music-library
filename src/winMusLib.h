@@ -1,4 +1,4 @@
-#ifndef WINMUSLIB_H 
+#ifndef WINMUSLIB_H
 #define WINMUSLIB_H
 
 // rst = Rest - use this as a rest within songs (length is in milliseconds)
@@ -125,7 +125,7 @@ void setNoteDurations(double beatsPerMinute, double &quarter,  \
                       double &dottedHalf,    double &half,     \
                       double &eighth,        double &sixteenth);
 
-// Leaving function names in this order because this is the order they appear 
+// Leaving function names in this order because this is the order they appear
 // in, in the reference ../img/note_duration_to_millisecond.png
 double setDottedQuarter(double quarterNote);
 double setWhole(double quarterNote);
@@ -133,7 +133,6 @@ double setDottedHalf(double quarterNote);
 double setHalf(double quarterNote);
 double setEighth(double quarterNote);
 double setSixteenth(double quarterNote);
-
-double assertBeatsPerMinute(double beatsPerMinute)
+double assertBeatsPerMinute(double beatsPerMinute);
 
 #endif
